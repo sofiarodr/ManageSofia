@@ -1,0 +1,505 @@
+body{
+    background-image: url(../imagenes/bg-tablet-pattern.svg), url(../imagenes/bg-tablet-pattern.svg);
+    background-size: 50%;
+    background-position: 100% -12%, -50% 70%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-family: 'Be vietnam Pro' , sans-serif;
+
+}
+/****HEADER****/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+.nav1{
+    display: flex;
+    list-style: none;
+}
+.nav1 li{
+    margin-right: 10px;
+}
+.nav1 a:link{
+    font-family: Be vietnam pro;
+    text-decoration: none;
+    color:rgb(29, 30, 37);
+    font-weight: 500;
+    font-size: 15px;
+    list-style: none;
+    line-height: 176.1%;
+}
+.nav1, a:hover{
+    color: rgb(143, 148, 167);
+}
+.stylebutton{
+    background: #F3603B;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    border-style: none;
+    color: white;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+.stylebutton:hover{
+    background-color: #F3603B;
+    opacity: 0.6;
+}
+#menuIcon{
+    display: none;
+}
+/****BOX1****/
+
+#Caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 185px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+section div{
+    padding-right: 50px;
+}
+
+section div h2{
+    font-size: 55px;
+    color:rgba(35, 44, 80, 1);
+    margin-bottom: 28px;
+}
+section div p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
+}
+
+/****BOX2****/
+#Caja2{
+    display: flex;
+    align-content: center;
+    padding: 10px 100px;
+    margin-top: 50px;
+}
+#text p{
+    color: rgba(140, 140, 148, 1);
+}
+div#title1 h2{
+    font-size: 36px;
+    color: rgb(35, 44, 81);
+}
+
+#tittle1{
+    margin-right: 10px;
+}
+.button4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.textcontent{
+    margin-left: 20px;
+}
+.button4 h3{
+    margin: 5px 0px;
+    color: rgb(35, 44, 81);
+}
+.button4::before{
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: white;
+    margin: 10px 30px;
+}
+
+#one::before{
+    content: "01";
+    margin: 0%;
+}
+
+#two::before{
+    content: "02";
+    margin: 0%;
+}
+
+#three::before{
+    content: "03";
+    margin: 0%;
+}
+/****CARDS****/
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards p{
+    color: rgba(140, 140, 148, 1);
+}
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.allcards div{
+    margin-right: 10px;
+    margin-left: 10px;
+    background:rgba(250, 250, 250, 1);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+#tittle2{
+    font-size: 40px;
+    color: rgba(35, 44, 80, 1);
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+#cards i{
+    display: none;
+}
+/**PREFOOTER**/
+#prefooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../imagenes/bg-simplify-section-desktop.svg');
+    background-color: rgb(242, 95, 58);
+    margin-top: 40px;
+    padding: 10px 100px;
+}
+
+#prefooter h2{
+    color: white;
+    font-size: 42px;
+}
+
+#stylebutton1{
+    background: white;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    border-style: none;
+    color:#F3603B;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+#stylebutton1:hover{
+    background: whitesmoke;
+    
+}
+
+/**Footer**/
+footer{
+    background-color: rgb(30, 30, 38);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 100px;
+    color: white;
+}
+
+#sociallogos{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 28px;
+}
+#sociallogos i{
+    color:#FFFFFF;
+    margin: 10px;
+}
+#sociallogos i:hover{
+    color: #F3603B;
+}
+
+
+#icons, #formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#link1, #link2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#link1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+#link2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+#link2 a:hover{
+    color: #F3603B;
+}
+#link1 a:hover{
+    color: #F3603B;
+}
+form{
+    display: flex;
+    align-items: flex-start;
+}
+#email{
+    margin-right: 10px;
+    border-radius: 30px;
+    border-style: none;
+    padding: 5px 15px;
+}
+#go{
+    margin-right: 10px;
+    border-radius: 30px;
+    border-style: none;
+    padding: 5px 15px;
+}
+
+#formulario form input#email {
+    color: #A0A0A0;
+
+}
+#email:focus{
+    outline: none;
+}
+#email:invalid{
+    border-color: red;
+    margin-bottom: 10px;
+}
+
+#email:invalid + span::after{
+    content: "Please insert a valid email";
+    font-style: italic;
+    color: red;
+}
+
+#go {
+    background-color: #F3603B;
+    box-shadow: #a7442b;
+    color:#FFFFFF;
+}
+
+#formulario form input#go:hover{
+    background-color: #f79a83;
+    color: #e2e1e1;
+    cursor: pointer;
+}
+#formulario{
+    text-align: right;
+}
+#copyright{
+    color: rgba(140, 140, 148, 1);
+    font-size: 12px;
+}
+#emailbox{
+    display: flex;
+    flex-direction: column;
+}
+.feedback{
+    margin: 5px;
+}
+/**MEDIA**/
+
+    @media (max-width: 480px){
+
+body{
+    background-position: 200% -5%, -200% 65%;
+    background-size: 80%;
+}
+section div{
+    padding-right: 0px;
+}
+/***** Header *****/
+header{
+    padding: 20px 10px;
+    margin: 0px;
+    justify-content: space-around;
+}
+
+/*header menu de navegacion*/
+
+    header img{
+        width: 35%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    #menuIcon{
+        display:inline-flex;
+        color: rgb(35, 44, 81);
+        font-size: 24px;
+    }
+
+    header button{
+        display: none;
+    }
+
+/*Bring everyone together*/
+
+#Caja1{
+    flex-direction: column-reverse;
+    padding: 10px 25px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+#Caja1 h2{
+    font-size: 36px;
+    color: rgb(35, 44, 81);
+}
+
+#Caja1 img{
+    width: 90%;
+
+}
+
+/*What´s different*/
+#Caja2{
+    flex-direction: column;
+    padding: 0px;
+}
+
+
+#tittle1 p{
+    text-align: center;
+    padding: 0px;
+}
+
+#tittle1 h2{
+    font-size: 24px;
+    text-align: center;
+    padding: 0px;
+}
+
+.textcontent h3{
+    font-size: 12px;
+    background-color: rgba(242, 95, 58, 0.2);
+    padding: 5px 25px;
+    margin: 0px;
+    position: relative;
+    left: -20px;
+    text-align: left;
+    width: 100%;
+}
+.textcontent p{
+    text-align: left;
+}
+div.textcontent{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+div#text{
+    padding: 0px;
+}
+/*What they´ve said*/
+
+    #tittle2 {
+        margin-bottom: 3rem;
+    }
+
+    .allcards {
+        align-items: center;
+        text-align: center;
+        background-color: #FAFAFA;
+        border-color: #FFFFFF;
+        border: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    #cardrichard{
+        display: none;
+    }
+    #cardanisha{
+        display: none;
+    }
+    #cards i{
+        display: block;
+        color: rgb(242, 95, 58);
+        font-size: 42px;
+        margin: 20px;
+    }
+/*Simplify*/
+
+#prefooter{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 25px;
+    background-image: url('../imagenes/bg-simplify-section-mobile.svg');
+    background-repeat: no-repeat;
+}
+
+
+/*Footer*/
+
+footer{
+    padding: 20px 25px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    position: relative;
+}
+
+#link2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    order: 3;
+}
+
+#link1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    order: 2;
+}
+
+#icons{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    order: -2;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+#icons img{
+    width: 70%;
+    margin: 20px;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    order: 4;
+    margin: 0px 30px;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 0px;
+    margin: 20px;
+}
+
+#sociallogos{
+    margin: 10px 0px;
+}
+}
